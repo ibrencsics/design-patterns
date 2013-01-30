@@ -7,6 +7,13 @@
     <groupId>org.ib</groupId>
     <artifactId>design-patterns</artifactId>
     <version>1.0</version>
-
+	
+	<developers>
+		<developer>
+			<id>ivan</id>
+			<name>Ivan Brencsics</name>
+			<email>ivan.brencsics@gmail.com</email>
+		</developer>
+	</developers>
     
 </project>
