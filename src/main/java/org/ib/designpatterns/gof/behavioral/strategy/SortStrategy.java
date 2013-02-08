@@ -1,5 +1,7 @@
 package org.ib.designpatterns.gof.behavioral.strategy;
 
+import java.util.ArrayList;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ibrencsics
@@ -8,4 +10,5 @@ package org.ib.designpatterns.gof.behavioral.strategy;
  * To change this template use File | Settings | File Templates.
  */
 public interface SortStrategy {
+    public void sort(ArrayList al);
 }

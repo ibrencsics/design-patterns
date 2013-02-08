@@ -7,5 +7,8 @@ package org.ib.designpatterns.gof.behavioral.command;
  * Time: 22:23
  * To change this template use File | Settings | File Templates.
  */
-public class Command {
+
+/* The Command interface */
+public interface Command {
+    void execute();
 }

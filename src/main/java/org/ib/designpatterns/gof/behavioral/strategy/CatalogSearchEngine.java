@@ -1,5 +1,7 @@
 package org.ib.designpatterns.gof.behavioral.strategy;
 
+import java.util.ArrayList;
+
 /**
  * Created with IntelliJ IDEA.
  * User: ibrencsics
@@ -8,4 +10,16 @@ package org.ib.designpatterns.gof.behavioral.strategy;
  * To change this template use File | Settings | File Templates.
  */
 public class CatalogSearchEngine {
+
+    private SortStrategy sorter;
+
+    public CatalogSearchEngine(SortStrategy sorter) {
+        this.sorter = sorter;
+    }
+
+    public ArrayList search() {
+        ArrayList list = null; // perform search
+        sorter.sort(list);
+        return list;
+    }
 }
